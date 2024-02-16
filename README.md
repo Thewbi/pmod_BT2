@@ -13,7 +13,7 @@ Using the PMOD BT2
 
 
 
-## UART Connectio
+## UART Connection
 
 The very first test to get to know the BT2 Pmod is to test out it's UART interface.
 To test the UART interface, connect jumper wires between a USB TTL adapter and the BT2 pins.
@@ -23,6 +23,7 @@ USB-Adapter used: AZDelivery 5 x UART-TTL USB Adapter mit CH340G Konverter für 
 
 
 ### Terminal Settings
+```
 Terminal Type Text
 Serial port 
 115,200 Kbps baud rate, 
@@ -30,7 +31,8 @@ Serial port
 no parity, 
 1 stop bit
 Hardware flow control enabled (Hardware RTS/CTS in YAT)
-Terminal: Text (Not binary) 
+Terminal: Text (Not binary)
+```
 
 
 ### Pin Connections
@@ -78,7 +80,7 @@ settings are correct. While in command mode, the module accepts ASCII bytes as c
 invalid command and ? for unrecognized commands. Type h <cr> to see a list of commands.
 
 
-$$$ (NOT ???) enter data mode within the first 60 seconds of operation. Once in command mode, the yellow LED will flicker rapidly. The BT2 will respond to $$$ with CMD
+$$$ (NOT ???, not questionmarks but dollar signs!) enter data mode within the first 60 seconds of operation. Once in command mode, the yellow LED will flicker rapidly. The BT2 will respond to $$$ with CMD
 --- leave data mode. The response to this command is END
 
 In CMD mode:
