@@ -39,7 +39,6 @@ Terminal: Text (Not binary)
 The pinout is documented here: https://digilent.com/reference/pmod/pmodbt2/start
 Some pins remain not connected (N/C) because they are not needed for the UART interface.
 
-```
 USB Adapter	|	BT2
 ---------------------------
 RXD 			TXD (pin 3)
@@ -57,7 +56,6 @@ N/C         	NC (pin 9) (not connected)
 N/C         	NC (pin 10) (not connected)
 N/C         	GND (pin 11) (not connected)
 N/C         	VCC (pin 12) (not connected)
-```
 
 The default bluetooth friendly name is: RNBT-0509
 
