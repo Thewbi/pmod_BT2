@@ -39,23 +39,23 @@ Terminal: Text (Not binary)
 The pinout is documented here: https://digilent.com/reference/pmod/pmodbt2/start
 Some pins remain not connected (N/C) because they are not needed for the UART interface.
 
-USB Adapter	|	BT2
----------------------------
-RXD 			TXD (pin 3)
-TXD 			RXD (pin 2)
-
-RTS				CTS (pin 4)
-CTS				RTS (pin 1)
-
-GND         	GND (pin 5)
-3v3         	VCC (pin 6)
-
-N/C         	Status (pin 7) (not connected)
-3v3         	RST (pin 8) (Connected to 3v3 because connecting RST to GND performs a reset!)
-N/C         	NC (pin 9) (not connected)
-N/C         	NC (pin 10) (not connected)
-N/C         	GND (pin 11) (not connected)
-N/C         	VCC (pin 12) (not connected)
+| USB Adapter	  |	BT2             |
+| --------------- | --------------- |
+| RXD             | TXD (pin 3)     |
+| TXD             | RXD (pin 2)     |
+|                 |                 |
+| RTS             |	CTS (pin 4)     |
+| CTS             | RTS (pin 1)     |
+|                 |                 |
+| GND             | GND (pin 5)     |
+| 3v3             | VCC (pin 6)     |
+|                 |                 |
+| N/C             | Status (pin 7) (not connected) |
+| 3v3             | RST (pin 8) (Connected to 3v3 because connecting RST to GND performs a reset!) |
+| N/C             | NC (pin 9) (not connected) |
+| N/C             | NC (pin 10) (not connected) |
+| N/C             | GND (pin 11) (not connected) |
+| N/C             | VCC (pin 12) (not connected) |
 
 The default bluetooth friendly name is: RNBT-0509
 
